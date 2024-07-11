@@ -5,23 +5,37 @@
     software
 </title>
     </head>
-    <body>
+    <style>
+#sam{
+border: double
+}
+#jos{
+    text-align: center;font-style: italic;
+}
+#tech{
+    font-style: italic;
+}
+    </style>
 
-        <a href=""><h1>Hello world </h1></a>
-        <br>
+    <body>
+       <div id="sam">
         <span>*<a href="">home</a></span>
         <br>
-        <span>*<a href="">about us</a></span>
-        <br>
-        <span>*<a href="">contact us </a></span>
-        <br>
-        <span>*<a href="">search</a></span>
-        <br>
-        <br>
-        <h1>Hello world title </h1>
+      <span id="sam">*<a href="">about us</a></span>
+      <br>
+      <span>*<a href="">contact us </a></span>
+      <br>
+      <span>*<a href="">search</a></span>
+       </div>
         <br>
         <br>
-        <span>hello world is generally a simple computer program which outputs[often the console]a message similar to 'hello,world!'</span>
+      <div id="jos">
+        <h1>Hello world </h1>
+      </div>
+        <br>
+        <br>
+       <div id="tech">
+        <span>hello world is generally a simple computer program which outputs[often the console]a message similar to 'hello,world!</html</span>
         <br>
         <br>
         <span>'hello world! program is often the first written by a student of a new programming language</span>
@@ -29,6 +43,7 @@
         <br>
         <span>while small test programs have existed since the development of programmable <a href="">computers</a></span>
         <span>,the tradition of using the phrase "hello,world" as a test message was influnced by an example program in the 1978 book </span>
+       </div>
         <h3><i>WIKIPEDIA</i></h3>
         <br>
         <span>content is avaliable under cc BY-SA 4.0</span>
