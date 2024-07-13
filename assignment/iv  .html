@@ -5,32 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bullet point</title>
 </head>
+<style>
+#goat{
+    border: 2px solid lightblue;
+}
+#try{
+    font-size: larger;font-weight: 700;font-style: italic;text-align: center;
+
+}
+#set{
+    border:1px solid blue;
+    border-radius: 2px;
+    
+
+}
+</style>
 <body>
     <h1>My feedback form</h1>
     
- <ul>
-    <li>Name: <input></li> 
-    <li>Email: <input></li>
-    <li>Password:<input></li>
+ <ul id="goat">
+    <li>Name: <input placeholder="upper case"></li> 
+    <li>Email: <input placeholder="@"></li>
+    <li>Password:<input placeholder="***"></li>
 
  </ul>
  <br>
  <br>
  <ul>
-    <li>please check all the emotions that apply to you:</li>
+    <li id="try">please check all the emotions that apply to you:</li>
     <br>
     <li>Angry<input type="checkbox"></li>
     <li>Sad<input type="checkbox"></li>
  <li>happy<input type="checkbox"</li>
  <li>ambivalent<input type="checkbox"></li>
  <br>
- <li>how satisfied were you with our service?</li>
+ <div id="set">
+    <li>how satisfied were you with our service?</li>
  <br>
 <li>very satisfied<input type="radio"></li>
 <li>satisfied<input type="radio"</li>
 <li>didnt care<input type="radio"</li>
 <li>dissatisfied<input type="radio"</li>
 <li>very dissatisfied<input type="radio"</li>
+ </div>
     <br>
     <br>
     <li>futher comments:<textarea></textarea></li>
